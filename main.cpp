@@ -1,8 +1,7 @@
 #include <iostream>
 #include "stdio.h"
-extern "C" {
 #include "crc16_modbus.h"
-}
+
 
 int main() {
   unsigned char data[] = {0x02, 0x04, 0x04, 0x08, 0x20, 0x1A, 0x43};
